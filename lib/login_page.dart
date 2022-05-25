@@ -13,15 +13,14 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromARGB(255, 234, 236, 229),
+      backgroundColor: Color.fromARGB(255, 241, 53, 141),
       body: SafeArea(
         child: Center(
           child: Column(mainAxisAlignment: MainAxisAlignment.center, children: [
             Text(
               'Hello Again!',
-              style: GoogleFonts.bebasNeue(
-                fontSize: 52,
-              ),
+              style:
+                  GoogleFonts.bebasNeue(fontSize: 52, color: Color(0xFFC1E3DD)),
             ),
             SizedBox(
               height: 50,
@@ -29,9 +28,9 @@ class _LoginPageState extends State<LoginPage> {
             Text(
               'Welcome back ,you\'ve been missed',
               style: TextStyle(
-                fontWeight: FontWeight.bold,
-                fontSize: 18,
-              ),
+                  fontWeight: FontWeight.bold,
+                  fontSize: 18,
+                  color: Color(0xFFC1E3DD)),
             ),
             SizedBox(
               height: 30,
